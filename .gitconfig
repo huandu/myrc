@@ -1,0 +1,23 @@
+[user]
+	name = Huan Du
+	email = i@huandu.me
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	last = log -1 HEAD
+	graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[mergetool "diffmerge"]
+	cmd = kdiff3 $BASE $LOCAL $REMOTE -o $MERGED
+	trustExitCode = false
+[merge]
+	tool = kdiff3
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
