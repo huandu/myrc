@@ -2,5 +2,17 @@
 
 I'm tired of copying `rc` files from one place to another. Let me start to use github as a central storage to sync these files.
 
-All files are licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+## Install ##
+
+```
+# Get source.
+git clone https://github.com/huandu/myrc.git
+
+# Replace rc files in `$HOME`. Old files are backed up in `$HOME/.myrc/backup`.
+myrc/install.sh
+```
+
+## License ##
+
+All files are licensed under MIT.
 
