@@ -15,6 +15,7 @@ endtry
 set term=xterm-256color
 set t_Co=256
 colorscheme wombat256mod
+set cursorline
 
 " Mapping for tabs.
 map <F10> :tabnew
